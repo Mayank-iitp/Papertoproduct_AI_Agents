@@ -1,0 +1,14 @@
+crewai
+langchain_groq
+langchain_core
+pypdf
+
+langchain
+langchain-huggingface
+pymupdf
+langchain-text-splitters
+faiss-cpu
+python-dotenv
+langchain-community
+duckduckgo-search
+streamlit
