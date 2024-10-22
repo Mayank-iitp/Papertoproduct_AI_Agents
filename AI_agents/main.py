@@ -126,7 +126,13 @@ task2 = Task(
 )
 
 
-
+task3 = Task(
+    description="""Conduct a thorough technical feasibility assessment of each proposed product idea. 
+    Evaluate required technologies, potential development challenges, and estimated timelines. 
+    Provide a ranking of ideas from most to least feasible, with detailed justifications.""",
+    agent=tech_assessor,
+    expected_output="A technical feasibility report ranking the proposed ideas with justifications."
+)
 task4 = Task(
     description="""Perform comprehensive market research for the top 2-3 most feasible product ideas. 
     Analyze market size, growth potential, competitor landscape, and potential barriers to entry. 
